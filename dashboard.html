@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/zeroing.css" />
+    <link rel="stylesheet" href="./style/dashboard.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="main-header">
+          <div class="main-header-left">
+            <div class="main-header-left__img">
+              <img src="./img/logo.png" alt="logo" />
+            </div>
+            <div class="main-header-left__text">PAY WITH CRYPTO</div>
+          </div>
+          <div class="main-header-right" style="display: none">
+            <div class="main-header-right__left">
+              <div class="main-header-right__left_link">
+                <a href="#">Home</a>
+              </div>
+              <div class="main-header-right__left_link">
+                <a href="./faq.html">FAQ</a>
+              </div>
+              <div class="main-header-right__left_link">
+                <a target="_blank" href="https://wellfound.com/company/moon-13/jobs">Careers</a>
+              </div>
+              <div class="main-header-right__left_link">
+                <a href="./about.html">About us</a>
+              </div>
+            </div>
+            <div class="main-header-right__line"></div>
+            <div class="main-header-right__right">
+              <div class="main-header-right__right_linkin">
+                <a href="#">Log In</a>
+              </div>
+              <div class="main-header-right__right_linkup">
+                <a href="#">Sign Up</a>
+              </div>
+            </div>
+          </div>
+          <div class="main-header-right-log">
+            <div class="main-header-right-log__btn">
+              <button>
+                <img
+                  class="main-header-right-log__btn_img"
+                  src="./img/chrome-img.svg"
+                  alt="chrome-img"
+                />
+                <div class="main-header-right-log__btn_text">Add To Browser</div>
+              </button>
+            </div>
+            <div class="main-header-right-log__left">
+              <div class="main-header-right-log__left_link">
+                <a href="#">Home</a>
+              </div>
+              <div class="main-header-right-log__left_link">
+                <a href="./faq.html">FAQ</a>
+              </div>
+              <div class="main-header-right-log__left_link">
+                <a target="_blank" href="https://wellfound.com/company/moon-13/jobs">Careers</a>
+              </div>
+              <div class="main-header-right-log__left_link">
+                <a href="./about.html">About us</a>
+              </div>
+            </div>
+            <div class="main-header-right-log__right">
+              <div class="main-header-right-log__left_linkn">
+                <a href="#">
+                  <div>Moon</div>
+                  <div class="main-header-right-log__left_linkn_svg">
+                    <svg
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fas"
+                      data-icon="caret-down"
+                      class="svg-inline--fa fa-caret-down fa-w-10"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 512"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+                <div class="main-header-right-log__left_block">
+                  <div>
+                    <a href="#">Settings</a>
+                  </div>
+                  <div>
+                    <a class="main-header-right-log__left_block_logout" href="#">Log Out</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-headermob-right">
+            <div id="menuToggle">
+              <input class="main-headermob-right__toggle" type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="main-headermob-menu">
+            <div class="main-headermob-menu__close">
+              <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                ></path>
+              </svg>
+            </div>
+            <div class="main-headermob-menu__block">
+              <div class="main-headermob-menu__block_l">
+                <a class="main-headermob-menu__link" href="#">
+                  <div class="main-headermob-menu__link_svg">
+                    <svg
+                      style="color: #0000009e"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path>
+                    </svg>
+                  </div>
+                  <div class="main-headermob-menu__link_text">Home</div>
+                </a>
+              </div>
+              <div class="main-headermob-menu__block_l">
+                <a class="main-headermob-menu__link" href="./faq.html">
+                  <div class="main-headermob-menu__link_svg">
+                    <svg
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M11.5 2C6.81 2 3 5.81 3 10.5S6.81 19 11.5 19h.5v3c4.86-2.34 8-7 8-11.5C20 5.81 16.19 2 11.5 2zm1 14.5h-2v-2h2v2zm0-3.5h-2c0-3.25 3-3 3-5 0-1.1-.9-2-2-2s-2 .9-2 2h-2c0-2.21 1.79-4 4-4s4 1.79 4 4c0 2.5-3 2.75-3 5z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="main-headermob-menu__link_text">FAQ</div>
+                </a>
+              </div>
+              <div class="main-headermob-menu__block_l">
+                <a
+                  class="main-headermob-menu__link"
+                  target="_blank"
+                  href="https://wellfound.com/company/moon-13/jobs"
+                >
+                  <div class="main-headermob-menu__link_svg">
+                    <svg
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="main-headermob-menu__link_text">Careers</div>
+                </a>
+              </div>
+              <div class="main-headermob-menu__block_l">
+                <a class="main-headermob-menu__link" href="https://paywithmoon.com/about">
+                  <div class="main-headermob-menu__link_svg">
+                    <svg
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="main-headermob-menu__link_text">Settings</div>
+                </a>
+              </div>
+              <div class="main-headermob-menu__block_l">
+                <a class="main-headermob-menu__link" href="./login.html">
+                  <div class="main-headermob-menu__link_svg">
+                    <svg
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="main-headermob-menu__link_text">Support</div>
+                </a>
+              </div>
+              <div class="main-headermob-menu__block_l">
+                <a class="main-headermob-menu__link" href="./signup.html">
+                  <div class="main-headermob-menu__link_svg">
+                    <svg
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M10.09 15.59L11.5 17l5-5-5-5-1.41 1.41L12.67 11H3v2h9.67l-2.58 2.59zM19 3H5c-1.11 0-2 .9-2 2v4h2V5h14v14H5v-4H3v4c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="main-headermob-menu__link_text main-headermob-menu__link_textlog">
+                    Log Out
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-subheader">
+          <div class="main-subheader-left">
+            <div class="main-subheader-left__newcard">
+              <button>
+                <div class="main-subheader-left__newcard_plus">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="plus"
+                    class="svg-inline--fa fa-plus fa-w-14"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="main-subheader-left__newcard_text">Create a new card</div>
+              </button>
+            </div>
+            <div class="main-subheader-left__title">Cards</div>
+            <div class="main-subheader-left__vcc">
+              <button>+</button>
+            </div>
+          </div>
+          <div class="main-subheader-right">
+            <div class="main-subheader-right__title">All Activity</div>
+            <div class="main-subheader-right__text">No transactions yet</div>
+          </div>
+        </div>
+        <div class="main-subheader-mobile">
+          <div class="main-subheader-mob">
+            <div class="main-subheader-mob__block">
+              <div class="main-subheader-mob__block_btn main-subheader-mob__block_btn_active">
+                <button onclick="changeCardContent('cards')">Cards</button>
+              </div>
+              <div class="main-subheader-mob__block_btn">
+                <button onclick="changeCardContent('activity')">Activity</button>
+              </div>
+              <div class="main-subheader-mob__block_btncard">
+                <button onclick="changeCardContent('newCard')">New Card</button>
+              </div>
+            </div>
+          </div>
+          <div class="main-subheader-mob__content">
+            <div class="main-subheader-mob__content_cards">
+              <button>+</button>
+            </div>
+            <div class="main-subheader-mob__content_transaction">No transactions yet</div>
+          </div>
+        </div>
+        <div class="main-footer">
+          <div class="main-footer-sites">
+            <div class="main-footer-sites__block">
+              <a href="#">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fab"
+                  data-icon="facebook-f"
+                  class="svg-inline--fa fa-facebook-f fa-w-10"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 320 512"
+                  style="width: 13.75px; color: #000"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <div class="main-footer-sites__block">
+              <a href="#">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fab"
+                  data-icon="twitter-square"
+                  class="svg-inline--fa fa-twitter-square fa-w-14"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  style="width: 19.25px; color: #000"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <div class="main-footer-sites__block">
+              <a href="#">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fab"
+                  data-icon="instagram"
+                  class="svg-inline--fa fa-instagram fa-w-14"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  style="width: 19.25px; color: #000"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <div class="main-footer-sites__block">
+              <a href="#">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fab"
+                  data-icon="discord"
+                  class="svg-inline--fa fa-discord fa-w-20"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 640 512"
+                  style="width: 25.27px; color: #000"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="main-footer-links">
+            <div class="main-footer-links__link">
+              <a href="#">Contact Us</a>
+            </div>
+            <div class="main-footer-links__line"></div>
+            <div class="main-footer-links__link">
+              <a href="#">Privacy</a>
+            </div>
+            <div class="main-footer-links__line"></div>
+            <div class="main-footer-links__link">
+              <a href="#">Terms</a>
+            </div>
+            <div class="main-footer-links__line"></div>
+            <div class="main-footer-links__link">
+              <a href="./faq.html">FAQ</a>
+            </div>
+            <div class="main-footer-links__line"></div>
+            <div class="main-footer-links__link">
+              <a href="#">Sitemap</a>
+            </div>
+          </div>
+          <div class="main-footer-info">
+            <div class="main-footer-info__text">
+              © 2022 Moon Technologies, Inc. All Rights Reserved
+            </div>
+            <div class="main-footer-info__textt">
+              The Moon Visa® Prepaid Card is issued by our partner Financial Institutions, pursuant
+              to a license from Visa U.S.A. Inc.
+            </div>
+            <div class="main-footer-info__text">
+              1Moon will automatically convert all cryptocurrency to U.S. dollars for use in
+              purchases.
+            </div>
+            <div class="main-footer-info__text">
+              2Available at US based ecommerce merchants that accept Visa cards. Some restrictions
+              apply. See <a class="main-footer-info__text_link" href="#">Terms & Conditions</a> for
+              details.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup-container">
+        <div class="popup-container-block">
+          <div class="popup-container-block__left">
+            <div class="popup-container-block__left_imgclose">
+              <img src="./img/img-close.png" alt="img-close" />
+            </div>
+            <div class="popup-container-block__left_title">Create a new Card</div>
+            <div class="popup-container-block__left_card">
+              <div class="popup-container-block__left_card_vc">
+                <div class="popup-container-block__left_card_vc_title">Virtual Card</div>
+                <div class="popup-container-block__left_card_vc_text">LIMITED USE</div>
+              </div>
+              <div class="popup-container-block__left_card_price">$0.00</div>
+              <div class="popup-container-block__left_card_number">XXXX XXXX XXXX XXXX</div>
+              <div class="popup-container-block__left_card_info">
+                <div class="popup-container-block__left_card_info_date">XX/XX</div>
+                <div class="popup-container-block__left_card_info_cvv">XXX</div>
+              </div>
+              <div class="popup-container-block__left_card_info_visa">
+                <img src="./img/visa-img.png" alt="visa-img" />
+              </div>
+            </div>
+            <div class="popup-container-block__left_info">
+              Note: this card will be valid for 60 days.
+            </div>
+          </div>
+          <div class="popup-container-block__right">
+            <div class="popup-container-block__right_popone">
+              <div class="popup-container-block__right_form_imgclose">
+                <img src="./img/img-close.png" alt="img-close" />
+              </div>
+              <div class="popup-container-block__right_form">
+                <div class="popup-container-block__right_form_amount">
+                  <div class="popup-container-block__right_form_amount_title">Card number</div>
+                  <input type="number" placeholder="Enter amount" />
+                  <div class="popup-container-block__right_form_amount_line"></div>
+                  <div class="popup-container-block__right_form_amount_block">
+                    <div class="popup-container-block__right_form_amount_curr">USD</div>
+                    <div class="popup-container-block__right_form_amount_img">
+                      <img src="./img/usa-img.png" alt="usa-img" />
+                    </div>
+                  </div>
+                </div>
+                <div class="popup-container-block__right_form_line"></div>
+                <div class="popup-container-block__right_form_options">
+                  <div class="popup-container-block__right_form_options_block">
+                    <div class="popup-container-block__right_form_options_block_title">Options</div>
+                    <div class="popup-container-block__right_form_options_block_arrow">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="black"
+                        width="25px"
+                        height="25px"
+                      >
+                        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                        <path d="M0 0h24v24H0V0z" fill="none"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="popup-container-block__right_form_options_content">
+                    <div class="popup-container-block__right_form_options_content_input">
+                      <div>
+                        <input type="checkbox" />
+                      </div>
+                      <div>Apply credit: $0.00</div>
+                    </div>
+                    <div class="popup-container-block__right_form_options_content_amount">
+                      $0.00
+                    </div>
+                  </div>
+                </div>
+                <div class="popup-container-block__right_form_line"></div>
+                <div class="popup-container-block__right_form_method">
+                  <div class="popup-container-block__right_form_method_block">
+                    <div class="popup-container-block__right_form_method_block_title">
+                      Payment Method
+                    </div>
+                    <div class="popup-container-block__right_form_method_block_currency">
+                      <div class="popup-container-block__right_form_method_block_currency_t">
+                        Bitcoin
+                      </div>
+                      <div class="popup-container-block__right_form_method_block_currency_pf">
+                        0.00000000
+                      </div>
+                      <div class="popup-container-block__right_form_method_block_currency_p">
+                        $0.00
+                      </div>
+                    </div>
+                    <div class="popup-container-block__right_form_method_block_arrow">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="black"
+                        width="25px"
+                        height="25px"
+                      >
+                        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                        <path d="M0 0h24v24H0V0z" fill="none"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="popup-container-block__right_form_method_content">
+                    <div
+                      class="popup-container-block__right_form_method_content_input popup-container-block__right_form_method_content_input_active"
+                      onclick="changeCurrencyNeed(0, 'Bitcoin', 'BTC')"
+                    >
+                      <div class="popup-container-block__right_form_method_content_input_block">
+                        <div class="popup-container-block__right_form_method_content_input_img">
+                          <img src="./img/btc-img.png" alt="btc-img" />
+                        </div>
+                        <div class="popup-container-block__right_form_method_content_input_title">
+                          <div
+                            class="popup-container-block__right_form_method_content_input_title_t"
+                          >
+                            Bitcoin
+                          </div>
+                          <div
+                            class="popup-container-block__right_form_method_content_input_title_p"
+                          >
+                            0.00000000
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="popup-container-block__right_form_method_content_input"
+                      onclick="changeCurrencyNeed(1, 'Coinbase (BCH)', 'BCH')"
+                    >
+                      <div class="popup-container-block__right_form_method_content_input_block">
+                        <div class="popup-container-block__right_form_method_content_input_img">
+                          <img src="./img/bch-img.png" alt="bch-img" />
+                        </div>
+                        <div class="popup-container-block__right_form_method_content_input_title">
+                          <div
+                            class="popup-container-block__right_form_method_content_input_title_t"
+                          >
+                            Coinbase (BCH)
+                          </div>
+                          <div
+                            class="popup-container-block__right_form_method_content_input_title_p"
+                          >
+                            0.00000000
+                          </div>
+                        </div>
+                      </div>
+                      <div class="popup-container-block__right_form_method_content_input_price">
+                        $0.00
+                      </div>
+                    </div>
+                    <div
+                      class="popup-container-block__right_form_method_content_input"
+                      onclick="changeCurrencyNeed(2, 'Coinbase (LTC)', 'LTC')"
+                    >
+                      <div class="popup-container-block__right_form_method_content_input_block">
+                        <div class="popup-container-block__right_form_method_content_input_img">
+                          <img src="./img/ltc-img.png" alt="ltc-img" />
+                        </div>
+                        <div class="popup-container-block__right_form_method_content_input_title">
+                          <div
+                            class="popup-container-block__right_form_method_content_input_title_t"
+                          >
+                            Coinbase (LTC)
+                          </div>
+                          <div
+                            class="popup-container-block__right_form_method_content_input_title_p"
+                          >
+                            0.00000000
+                          </div>
+                        </div>
+                      </div>
+                      <div class="popup-container-block__right_form_method_content_input_price">
+                        $0.00
+                      </div>
+                    </div>
+                    <div
+                      class="popup-container-block__right_form_method_content_input"
+                      onclick="changeCurrencyNeed(3, 'Coinbase (ETH)', 'ETH')"
+                    >
+                      <div class="popup-container-block__right_form_method_content_input_block">
+                        <div class="popup-container-block__right_form_method_content_input_img">
+                          <img src="./img/eth-coinbase.png" alt="etc-coinbase" />
+                        </div>
+                        <div class="popup-container-block__right_form_method_content_input_title">
+                          <div
+                            class="popup-container-block__right_form_method_content_input_title_t"
+                          >
+                            Coinbase (ETH)
+                          </div>
+                          <div
+                            class="popup-container-block__right_form_method_content_input_title_p"
+                          >
+                            0.00000000
+                          </div>
+                        </div>
+                      </div>
+                      <div class="popup-container-block__right_form_method_content_input_price">
+                        $0.00
+                      </div>
+                    </div>
+                    <div
+                      class="popup-container-block__right_form_method_content_input"
+                      onclick="changeCurrencyNeed(4, 'Coinbase (BTC)', 'BTC')"
+                    >
+                      <div class="popup-container-block__right_form_method_content_input_block">
+                        <div class="popup-container-block__right_form_method_content_input_img">
+                          <img src="./img/btc-img.png" alt="btc-img" />
+                        </div>
+                        <div class="popup-container-block__right_form_method_content_input_title">
+                          <div
+                            class="popup-container-block__right_form_method_content_input_title_t"
+                          >
+                            Coinbase (BTC)
+                          </div>
+                          <div
+                            class="popup-container-block__right_form_method_content_input_title_p"
+                          >
+                            0.00000000
+                          </div>
+                        </div>
+                      </div>
+                      <div class="popup-container-block__right_form_method_content_input_price">
+                        $0.00
+                      </div>
+                    </div>
+                    <!-- <div
+                      class="popup-container-block__right_form_method_content_input"
+                      onclick="changeCurrencyNeed(4, 'Coinbase (USDC)', 'USDC')"
+                    >
+                      <div class="popup-container-block__right_form_method_content_input_block">
+                        <div class="popup-container-block__right_form_method_content_input_img">
+                          <img src="./img/usdc-img.png" alt="usdc-img" />
+                        </div>
+                        <div class="popup-container-block__right_form_method_content_input_title">
+                          <div
+                            class="popup-container-block__right_form_method_content_input_title_t"
+                          >
+                            Coinbase (USDC)
+                          </div>
+                          <div
+                            class="popup-container-block__right_form_method_content_input_title_p"
+                          >
+                            0.00000000
+                          </div>
+                        </div>
+                      </div>
+                      <div class="popup-container-block__right_form_method_content_input_price">
+                        $0.00
+                      </div>
+                    </div> -->
+                  </div>
+                </div>
+                <div class="popup-container-block__right_form_convinfo">
+                  <div class="popup-container-block__right_form_lineb"></div>
+                  <div class="popup-container-block__right_form_convinfo_block">
+                    <div>Conversion Rate: <span>1 BCH = $103.66</span></div>
+                    <div>Last updated 3 minutes ago</div>
+                  </div>
+                </div>
+                <div class="popup-container-block__right_form_pay">
+                  <div class="popup-container-block__right_form_pay_title">You pay</div>
+                  <div class="popup-container-block__right_form_pay_price">0.00000000</div>
+                  <div class="popup-container-block__right_form_pay_line"></div>
+                  <div class="popup-container-block__right_form_pay_block">
+                    <div class="popup-container-block__right_form_pay_curr">BCH</div>
+                    <div class="popup-container-block__right_form_pay_img">
+                      <img src="./img/btc-img.png" alt="usa-img" />
+                    </div>
+                  </div>
+                </div>
+                <div class="popup-container-block__right_form_btn">
+                  <button>Continue</button>
+                </div>
+              </div>
+            </div>
+            <div class="popup-container-block__right_poptwo">
+              <div class="popup-container-block__right_form_imgclose">
+                <img src="./img/img-close.png" alt="img-close" />
+              </div>
+              <div class="popup-container-block__right_poptwo_block">
+                <div class="popup-container-block__right_poptwo_block_back">
+                  <button>< Back</button>
+                </div>
+                <div class="popup-container-block__right_poptwo_block_title">
+                  Is this the correct amount?
+                </div>
+                <div class="popup-container-block__right_poptwo_block_text">
+                  - This card will expire in 60 days.
+                </div>
+                <div class="popup-container-block__right_poptwo_block_text">
+                  - This card will only work at U.S. merchants.
+                </div>
+                <div class="popup-container-block__right_poptwo_block_form">
+                  <div class="popup-container-block__right_poptwo_block_form_cont">
+                    <div class="popup-container-block__right_poptwo_block_form_input">
+                      <input type="checkbox" />
+                    </div>
+                    <div class="popup-container-block__right_poptwo_block_form_text">
+                      I understand these conditions
+                    </div>
+                  </div>
+                  <div class="popup-container-block__right_poptwo_block_form_btn">
+                    <button>Yes, Create Card</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="popup-container-blocktwo">
+          <div class="popup-container-blocktwo__loading">
+            <img src="./img/loadingDashboardTwo.gif" alt="" />
+            <div>Loading...</div>
+          </div>
+          <div class="popup-container-blocktwo__content">
+            <div class="popup-container-blocktwo__nav">
+              <div
+                class="popup-container-blocktwo__nav_btnl popup-container-blocktwo__nav_btnl_active"
+              >
+                <button>Lighthing</button>
+              </div>
+              <div class="popup-container-blocktwo__nav_btnr">
+                <button>On-Chain</button>
+              </div>
+            </div>
+            <div class="popup-container-blocktwo__count">
+              <div class="popup-container-blocktwo__sum">
+                <div class="popup-container-blocktwo__sum_price">0.00444421</div>
+                <div class="popup-container-blocktwo__sum_block">
+                  <div class="popup-container-blocktwo__sum_line"></div>
+                  <div class="popup-container-blocktwo__sum_name">BTC</div>
+                  <div class="popup-container-blocktwo__sum_img">
+                    <img src="./img/btc-img.png" alt="btc-img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="popup-container-blocktwo__infosum">
+              <div class="popup-container-blocktwo__infosum_text">≈ $100.00 USD</div>
+              <div class="popup-container-blocktwo__infosum_img">
+                <img src="./img/usa-img.png" alt="usa-img" />
+              </div>
+            </div>
+            <div class="popup-container-blocktwo__qrcode">
+              <div class="popup-container-blocktwo__qrcode_img">
+                <img src="./img/qrcode-img.jpg" alt="qrcode-img" style="border-radius: 10px" />
+              </div>
+            </div>
+            <div class="popup-container-blocktwo__info">
+              <div class="popup-container-blocktwo__info_texto">Lightning invoice</div>
+              <div class="popup-container-blocktwo__info_textt">
+                bc1q99flwg0hzkrmu6vlevdf8kdz9gkfgcf55rlj3f
+              </div>
+              <div class="popup-container-blocktwo__info_textth">
+                <div class="popup-container-blocktwo__info_textth_title">Price expires in</div>
+                <div class="popup-container-blocktwo__info_textth_time">03:00</div>
+              </div>
+            </div>
+            <div class="popup-container-blocktwo__btn">
+              <button>Open in Wallet</button>
+            </div>
+            <div class="popup-container-blocktwo__cancel">
+              <a href="#">Cancel</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/indexDashboard.js"></script>
+  </body>
+</html>
